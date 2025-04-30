@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: square;
+}
+
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
