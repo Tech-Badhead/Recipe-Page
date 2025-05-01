@@ -148,7 +148,7 @@ table tr .value {
 @media screen and (max-width: 576px) {
     .container {
       max-width: 375px;
-      padding: 0;
+      padding: 1rem 1.1rem;
     }
   
     body {
@@ -162,32 +162,11 @@ table tr .value {
 
     header img {
         border-radius: 0;
-        padding: 0;
-    }
-    
-    header h1 {
-        padding: 0 1rem;
     }
 
     header p {
-        padding: 0 1rem;
         margin-top: 1.3rem;
         text-align: left;
-    }
-
-    .prep-time {
-        padding: 1.5rem;
-    }
-
-    .ingredients {
-        padding: 1rem;
-    }
-
-    .instructions {
-        padding: 1rem;
-    }
-    .nutrition {
-        padding:  1rem;
     }
   }
   
